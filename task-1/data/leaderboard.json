@@ -1,0 +1,2448 @@
+{
+  "generatedAt": "2026-04-27T20:05:17.566Z",
+  "seed": 20251225,
+  "count": 120,
+  "employees": [
+    {
+      "id": "emp-57",
+      "name": "Nasir Jansen",
+      "position": "Middle Business Analyst",
+      "department": "Finance",
+      "office": "Berlin",
+      "points": 497,
+      "trend": -11,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 1
+    },
+    {
+      "id": "emp-77",
+      "name": "Elara Wexler",
+      "position": "Junior Account Manager",
+      "department": "Sales",
+      "office": "Berlin",
+      "points": 496,
+      "trend": -20,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 2
+    },
+    {
+      "id": "emp-60",
+      "name": "Arlo Tanaka",
+      "position": "Junior Frontend Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 495,
+      "trend": 4,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 3
+    },
+    {
+      "id": "emp-84",
+      "name": "Jasper Kovac",
+      "position": "Middle Full-stack Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 494,
+      "trend": 21,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 4
+    },
+    {
+      "id": "emp-90",
+      "name": "Elara Pavlov",
+      "position": "Junior Marketing Specialist",
+      "department": "Marketing",
+      "office": "Remote",
+      "points": 486,
+      "trend": 29,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 5
+    },
+    {
+      "id": "emp-109",
+      "name": "Suri Greer",
+      "position": "Senior Recruiter",
+      "department": "People",
+      "office": "Lisbon",
+      "points": 486,
+      "trend": 21,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "008272",
+      "rank": 6
+    },
+    {
+      "id": "emp-42",
+      "name": "Otis Ortiz",
+      "position": "Junior Content Strategist",
+      "department": "Marketing",
+      "office": "Tbilisi",
+      "points": 483,
+      "trend": -18,
+      "badges": [
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        }
+      ],
+      "avatarColor": "0078d4",
+      "rank": 7
+    },
+    {
+      "id": "emp-50",
+      "name": "Roman Becker",
+      "position": "Junior Data Analyst",
+      "department": "Finance",
+      "office": "Remote",
+      "points": 483,
+      "trend": 14,
+      "badges": [],
+      "avatarColor": "008272",
+      "rank": 8
+    },
+    {
+      "id": "emp-37",
+      "name": "Stella Yates",
+      "position": "Middle Engineering Manager",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 481,
+      "trend": 20,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 9
+    },
+    {
+      "id": "emp-24",
+      "name": "Rhona Xu",
+      "position": "Senior Product Designer",
+      "department": "Design",
+      "office": "Berlin",
+      "points": 479,
+      "trend": 21,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 10
+    },
+    {
+      "id": "emp-44",
+      "name": "Iris Marsh",
+      "position": "Senior Recruiter",
+      "department": "People",
+      "office": "Tbilisi",
+      "points": 478,
+      "trend": 25,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 11
+    },
+    {
+      "id": "emp-112",
+      "name": "Lyra Uribe",
+      "position": "Principal Data Analyst",
+      "department": "Finance",
+      "office": "Berlin",
+      "points": 474,
+      "trend": 22,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 12
+    },
+    {
+      "id": "emp-14",
+      "name": "Theo Nakamura",
+      "position": "Middle Sales Executive",
+      "department": "Sales",
+      "office": "Remote",
+      "points": 472,
+      "trend": -19,
+      "badges": [],
+      "avatarColor": "8764b8",
+      "rank": 13
+    },
+    {
+      "id": "emp-88",
+      "name": "Nasir Tate",
+      "position": "Middle Full-stack Engineer",
+      "department": "Engineering",
+      "office": "Lisbon",
+      "points": 472,
+      "trend": 8,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "008272",
+      "rank": 14
+    },
+    {
+      "id": "emp-27",
+      "name": "Nora Holt",
+      "position": "Lead Backend Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 462,
+      "trend": -13,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 15
+    },
+    {
+      "id": "emp-86",
+      "name": "Ezra Zima",
+      "position": "Senior Backend Engineer",
+      "department": "Engineering",
+      "office": "Remote",
+      "points": 462,
+      "trend": 14,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 16
+    },
+    {
+      "id": "emp-101",
+      "name": "Aiyla Mahler",
+      "position": "Junior HR Specialist",
+      "department": "People",
+      "office": "Tbilisi",
+      "points": 462,
+      "trend": 18,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 17
+    },
+    {
+      "id": "emp-85",
+      "name": "Nadia Saito",
+      "position": "Principal Product Designer",
+      "department": "Design",
+      "office": "Berlin",
+      "points": 454,
+      "trend": -11,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "8764b8",
+      "rank": 18
+    },
+    {
+      "id": "emp-95",
+      "name": "Theo Khoury",
+      "position": "Principal Frontend Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 450,
+      "trend": 19,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 19
+    },
+    {
+      "id": "emp-58",
+      "name": "Quinn Yates",
+      "position": "Principal Recruiter",
+      "department": "People",
+      "office": "Berlin",
+      "points": 439,
+      "trend": 22,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 20
+    },
+    {
+      "id": "emp-5",
+      "name": "Esme Quinn",
+      "position": "Lead Data Engineer",
+      "department": "Engineering",
+      "office": "Berlin",
+      "points": 432,
+      "trend": 20,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 21
+    },
+    {
+      "id": "emp-12",
+      "name": "Maeve Wirth",
+      "position": "Principal Financial Analyst",
+      "department": "Finance",
+      "office": "Lisbon",
+      "points": 430,
+      "trend": -18,
+      "badges": [],
+      "avatarColor": "8764b8",
+      "rank": 22
+    },
+    {
+      "id": "emp-51",
+      "name": "Linnea Ortiz",
+      "position": "Principal Mobile Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 428,
+      "trend": -14,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 23
+    },
+    {
+      "id": "emp-36",
+      "name": "Mei Ibarra",
+      "position": "Principal Frontend Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 424,
+      "trend": 26,
+      "badges": [],
+      "avatarColor": "0078d4",
+      "rank": 24
+    },
+    {
+      "id": "emp-100",
+      "name": "Soren Pavlov",
+      "position": "Senior Recruiter",
+      "department": "People",
+      "office": "Yerevan",
+      "points": 424,
+      "trend": 27,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 25
+    },
+    {
+      "id": "emp-73",
+      "name": "Marek Hartley",
+      "position": "Middle Tech Lead",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 419,
+      "trend": 13,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "0078d4",
+      "rank": 26
+    },
+    {
+      "id": "emp-31",
+      "name": "Theo Norris",
+      "position": "Senior Financial Analyst",
+      "department": "Finance",
+      "office": "Yerevan",
+      "points": 416,
+      "trend": 0,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        }
+      ],
+      "avatarColor": "0078d4",
+      "rank": 27
+    },
+    {
+      "id": "emp-56",
+      "name": "Mei Hartley",
+      "position": "Senior QA Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 412,
+      "trend": -17,
+      "badges": [],
+      "avatarColor": "0078d4",
+      "rank": 28
+    },
+    {
+      "id": "emp-26",
+      "name": "Noor Becker",
+      "position": "Middle UI Designer",
+      "department": "Design",
+      "office": "Lisbon",
+      "points": 410,
+      "trend": 5,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 29
+    },
+    {
+      "id": "emp-1",
+      "name": "Jasper Eklund",
+      "position": "Senior Business Analyst",
+      "department": "Finance",
+      "office": "Lisbon",
+      "points": 404,
+      "trend": 23,
+      "badges": [
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 30
+    },
+    {
+      "id": "emp-110",
+      "name": "Sage Finch",
+      "position": "Junior People Partner",
+      "department": "People",
+      "office": "Lisbon",
+      "points": 400,
+      "trend": 9,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 31
+    },
+    {
+      "id": "emp-33",
+      "name": "Idris Wirth",
+      "position": "Lead Business Analyst",
+      "department": "Finance",
+      "office": "Remote",
+      "points": 393,
+      "trend": 18,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        }
+      ],
+      "avatarColor": "008272",
+      "rank": 32
+    },
+    {
+      "id": "emp-87",
+      "name": "Felix Okafor",
+      "position": "Lead UX Designer",
+      "department": "Design",
+      "office": "Berlin",
+      "points": 391,
+      "trend": -14,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 33
+    },
+    {
+      "id": "emp-111",
+      "name": "Suri Ibarra",
+      "position": "Junior QA Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 389,
+      "trend": 13,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 34
+    },
+    {
+      "id": "emp-108",
+      "name": "Nasir Greer",
+      "position": "Junior DevOps Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 382,
+      "trend": 20,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "0078d4",
+      "rank": 35
+    },
+    {
+      "id": "emp-114",
+      "name": "Roman Okafor",
+      "position": "Senior Engineering Manager",
+      "department": "Engineering",
+      "office": "Tbilisi",
+      "points": 382,
+      "trend": 25,
+      "badges": [],
+      "avatarColor": "107c10",
+      "rank": 36
+    },
+    {
+      "id": "emp-11",
+      "name": "Tess Saito",
+      "position": "Lead Customer Success Manager",
+      "department": "Sales",
+      "office": "Warsaw",
+      "points": 374,
+      "trend": 29,
+      "badges": [
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 37
+    },
+    {
+      "id": "emp-89",
+      "name": "Liam Ramos",
+      "position": "Senior Account Manager",
+      "department": "Sales",
+      "office": "Warsaw",
+      "points": 366,
+      "trend": -5,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 38
+    },
+    {
+      "id": "emp-2",
+      "name": "Rhona Brand",
+      "position": "Lead Data Engineer",
+      "department": "Engineering",
+      "office": "Lisbon",
+      "points": 363,
+      "trend": -8,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 39
+    },
+    {
+      "id": "emp-22",
+      "name": "Iris Rao",
+      "position": "Middle DevOps Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 359,
+      "trend": 20,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 40
+    },
+    {
+      "id": "emp-71",
+      "name": "Vera Nakamura",
+      "position": "Lead Recruiter",
+      "department": "People",
+      "office": "Tbilisi",
+      "points": 359,
+      "trend": 2,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 41
+    },
+    {
+      "id": "emp-3",
+      "name": "Felix Young",
+      "position": "Principal Business Analyst",
+      "department": "Finance",
+      "office": "Warsaw",
+      "points": 349,
+      "trend": -9,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 42
+    },
+    {
+      "id": "emp-116",
+      "name": "Lyra Stone",
+      "position": "Middle UX Designer",
+      "department": "Design",
+      "office": "Warsaw",
+      "points": 349,
+      "trend": 30,
+      "badges": [],
+      "avatarColor": "008272",
+      "rank": 43
+    },
+    {
+      "id": "emp-118",
+      "name": "Sage Greer",
+      "position": "Middle Marketing Specialist",
+      "department": "Marketing",
+      "office": "Tbilisi",
+      "points": 339,
+      "trend": -2,
+      "badges": [],
+      "avatarColor": "b4009e",
+      "rank": 44
+    },
+    {
+      "id": "emp-55",
+      "name": "Rocco Marsh",
+      "position": "Principal Backend Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 337,
+      "trend": -18,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 45
+    },
+    {
+      "id": "emp-18",
+      "name": "Sage Eklund",
+      "position": "Senior Data Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 336,
+      "trend": -21,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 46
+    },
+    {
+      "id": "emp-47",
+      "name": "Niko Gallo",
+      "position": "Junior Full-stack Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 332,
+      "trend": -25,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "0078d4",
+      "rank": 47
+    },
+    {
+      "id": "emp-99",
+      "name": "Rhea Carter",
+      "position": "Junior Marketing Specialist",
+      "department": "Marketing",
+      "office": "Yerevan",
+      "points": 318,
+      "trend": -2,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 48
+    },
+    {
+      "id": "emp-92",
+      "name": "Stella Kovac",
+      "position": "Junior Frontend Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 315,
+      "trend": 9,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 49
+    },
+    {
+      "id": "emp-107",
+      "name": "Ade Uribe",
+      "position": "Senior UI Designer",
+      "department": "Design",
+      "office": "Remote",
+      "points": 314,
+      "trend": -19,
+      "badges": [
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 50
+    },
+    {
+      "id": "emp-49",
+      "name": "Arlo Zima",
+      "position": "Principal Financial Analyst",
+      "department": "Finance",
+      "office": "Tbilisi",
+      "points": 304,
+      "trend": 3,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 51
+    },
+    {
+      "id": "emp-93",
+      "name": "Sofia Volkov",
+      "position": "Senior Marketing Specialist",
+      "department": "Marketing",
+      "office": "Tbilisi",
+      "points": 292,
+      "trend": -18,
+      "badges": [],
+      "avatarColor": "107c10",
+      "rank": 52
+    },
+    {
+      "id": "emp-25",
+      "name": "Joran Becker",
+      "position": "Lead Marketing Specialist",
+      "department": "Marketing",
+      "office": "Remote",
+      "points": 290,
+      "trend": -10,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        }
+      ],
+      "avatarColor": "0078d4",
+      "rank": 53
+    },
+    {
+      "id": "emp-69",
+      "name": "Lyra Ibarra",
+      "position": "Middle Data Engineer",
+      "department": "Engineering",
+      "office": "Berlin",
+      "points": 284,
+      "trend": -16,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 54
+    },
+    {
+      "id": "emp-43",
+      "name": "Zara Pavlov",
+      "position": "Middle Sales Executive",
+      "department": "Sales",
+      "office": "Yerevan",
+      "points": 279,
+      "trend": -18,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "008272",
+      "rank": 55
+    },
+    {
+      "id": "emp-62",
+      "name": "Aria Saito",
+      "position": "Lead Product Manager",
+      "department": "Engineering",
+      "office": "Remote",
+      "points": 271,
+      "trend": 21,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 56
+    },
+    {
+      "id": "emp-64",
+      "name": "Alex Wexler",
+      "position": "Junior UX Designer",
+      "department": "Design",
+      "office": "Remote",
+      "points": 258,
+      "trend": 17,
+      "badges": [],
+      "avatarColor": "038387",
+      "rank": 57
+    },
+    {
+      "id": "emp-17",
+      "name": "Ivy Wexler",
+      "position": "Lead UI Designer",
+      "department": "Design",
+      "office": "Lisbon",
+      "points": 255,
+      "trend": -20,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 58
+    },
+    {
+      "id": "emp-21",
+      "name": "Linnea Carter",
+      "position": "Junior Brand Manager",
+      "department": "Marketing",
+      "office": "Yerevan",
+      "points": 254,
+      "trend": 14,
+      "badges": [
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 59
+    },
+    {
+      "id": "emp-41",
+      "name": "Maeve Khoury",
+      "position": "Principal Brand Manager",
+      "department": "Marketing",
+      "office": "Warsaw",
+      "points": 251,
+      "trend": -15,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "8764b8",
+      "rank": 60
+    },
+    {
+      "id": "emp-79",
+      "name": "Vera Uribe",
+      "position": "Principal Frontend Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 251,
+      "trend": -2,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 61
+    },
+    {
+      "id": "emp-72",
+      "name": "Joran Vance",
+      "position": "Lead Tech Lead",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 244,
+      "trend": -14,
+      "badges": [],
+      "avatarColor": "ca5010",
+      "rank": 62
+    },
+    {
+      "id": "emp-13",
+      "name": "Bruno Becker",
+      "position": "Principal Financial Analyst",
+      "department": "Finance",
+      "office": "Berlin",
+      "points": 243,
+      "trend": -17,
+      "badges": [],
+      "avatarColor": "d83b01",
+      "rank": 63
+    },
+    {
+      "id": "emp-61",
+      "name": "Jasper Uribe",
+      "position": "Principal DevOps Engineer",
+      "department": "Engineering",
+      "office": "Berlin",
+      "points": 242,
+      "trend": -8,
+      "badges": [],
+      "avatarColor": "5c2d91",
+      "rank": 64
+    },
+    {
+      "id": "emp-81",
+      "name": "Cyril Mahler",
+      "position": "Lead Mobile Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 242,
+      "trend": 34,
+      "badges": [],
+      "avatarColor": "038387",
+      "rank": 65
+    },
+    {
+      "id": "emp-23",
+      "name": "Ivy Doyle",
+      "position": "Middle Data Engineer",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 237,
+      "trend": -16,
+      "badges": [],
+      "avatarColor": "8764b8",
+      "rank": 66
+    },
+    {
+      "id": "emp-52",
+      "name": "Aiyla Ramos",
+      "position": "Middle Customer Success Manager",
+      "department": "Sales",
+      "office": "Remote",
+      "points": 237,
+      "trend": 0,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 67
+    },
+    {
+      "id": "emp-96",
+      "name": "Lyra Carter",
+      "position": "Senior Product Designer",
+      "department": "Design",
+      "office": "Berlin",
+      "points": 237,
+      "trend": 32,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "8764b8",
+      "rank": 68
+    },
+    {
+      "id": "emp-113",
+      "name": "Mateo Vance",
+      "position": "Junior Sales Executive",
+      "department": "Sales",
+      "office": "Warsaw",
+      "points": 236,
+      "trend": -11,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "0078d4",
+      "rank": 69
+    },
+    {
+      "id": "emp-53",
+      "name": "Kian Norris",
+      "position": "Junior People Partner",
+      "department": "People",
+      "office": "Warsaw",
+      "points": 233,
+      "trend": 4,
+      "badges": [],
+      "avatarColor": "008272",
+      "rank": 70
+    },
+    {
+      "id": "emp-16",
+      "name": "Caleb Yates",
+      "position": "Principal Product Designer",
+      "department": "Design",
+      "office": "Tbilisi",
+      "points": 232,
+      "trend": 0,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 71
+    },
+    {
+      "id": "emp-6",
+      "name": "Diego Quinn",
+      "position": "Principal People Partner",
+      "department": "People",
+      "office": "Berlin",
+      "points": 228,
+      "trend": 28,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 72
+    },
+    {
+      "id": "emp-8",
+      "name": "Otto Young",
+      "position": "Principal Customer Success Manager",
+      "department": "Sales",
+      "office": "Berlin",
+      "points": 222,
+      "trend": 18,
+      "badges": [
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 73
+    },
+    {
+      "id": "emp-66",
+      "name": "Asher Hale",
+      "position": "Lead Data Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 218,
+      "trend": 28,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 74
+    },
+    {
+      "id": "emp-34",
+      "name": "Cyril Young",
+      "position": "Lead Content Strategist",
+      "department": "Marketing",
+      "office": "Warsaw",
+      "points": 208,
+      "trend": 35,
+      "badges": [],
+      "avatarColor": "107c10",
+      "rank": 75
+    },
+    {
+      "id": "emp-82",
+      "name": "Arlo Uribe",
+      "position": "Junior Project Manager",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 201,
+      "trend": 24,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 76
+    },
+    {
+      "id": "emp-119",
+      "name": "Roman Finch",
+      "position": "Principal Product Designer",
+      "department": "Design",
+      "office": "Remote",
+      "points": 198,
+      "trend": 2,
+      "badges": [],
+      "avatarColor": "b4009e",
+      "rank": 77
+    },
+    {
+      "id": "emp-115",
+      "name": "Mila Pavlov",
+      "position": "Middle Engineering Manager",
+      "department": "Engineering",
+      "office": "Tbilisi",
+      "points": 189,
+      "trend": 3,
+      "badges": [],
+      "avatarColor": "107c10",
+      "rank": 78
+    },
+    {
+      "id": "emp-32",
+      "name": "Reza Hale",
+      "position": "Junior Data Analyst",
+      "department": "Finance",
+      "office": "Remote",
+      "points": 185,
+      "trend": -21,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 79
+    },
+    {
+      "id": "emp-117",
+      "name": "Diego Carter",
+      "position": "Lead Recruiter",
+      "department": "People",
+      "office": "Tbilisi",
+      "points": 181,
+      "trend": 12,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 80
+    },
+    {
+      "id": "emp-38",
+      "name": "Amara Mahler",
+      "position": "Principal UX Designer",
+      "department": "Design",
+      "office": "Yerevan",
+      "points": 178,
+      "trend": -1,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "8764b8",
+      "rank": 81
+    },
+    {
+      "id": "emp-39",
+      "name": "Alex Uribe",
+      "position": "Principal Product Designer",
+      "department": "Design",
+      "office": "Remote",
+      "points": 177,
+      "trend": 15,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "008272",
+      "rank": 82
+    },
+    {
+      "id": "emp-74",
+      "name": "Ines Cole",
+      "position": "Middle Marketing Specialist",
+      "department": "Marketing",
+      "office": "Warsaw",
+      "points": 176,
+      "trend": -15,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 83
+    },
+    {
+      "id": "emp-19",
+      "name": "Ivy Eklund",
+      "position": "Lead Recruiter",
+      "department": "People",
+      "office": "Warsaw",
+      "points": 173,
+      "trend": 17,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 84
+    },
+    {
+      "id": "emp-59",
+      "name": "Bo Ramos",
+      "position": "Middle Backend Engineer",
+      "department": "Engineering",
+      "office": "Remote",
+      "points": 173,
+      "trend": 24,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 85
+    },
+    {
+      "id": "emp-7",
+      "name": "Tess Uribe",
+      "position": "Principal Marketing Specialist",
+      "department": "Marketing",
+      "office": "Remote",
+      "points": 172,
+      "trend": 14,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "107c10",
+      "rank": 86
+    },
+    {
+      "id": "emp-97",
+      "name": "Quinn Saito",
+      "position": "Junior Product Designer",
+      "department": "Design",
+      "office": "Berlin",
+      "points": 160,
+      "trend": -13,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 87
+    },
+    {
+      "id": "emp-67",
+      "name": "Maeve Doyle",
+      "position": "Senior Data Engineer",
+      "department": "Engineering",
+      "office": "Remote",
+      "points": 158,
+      "trend": 27,
+      "badges": [],
+      "avatarColor": "107c10",
+      "rank": 88
+    },
+    {
+      "id": "emp-80",
+      "name": "Soren Salim",
+      "position": "Senior Content Strategist",
+      "department": "Marketing",
+      "office": "Tbilisi",
+      "points": 157,
+      "trend": 6,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "mentor",
+          "label": "Mentor",
+          "color": "#5c2d91"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 89
+    },
+    {
+      "id": "emp-83",
+      "name": "Rhea Doyle",
+      "position": "Lead QA Engineer",
+      "department": "Engineering",
+      "office": "Berlin",
+      "points": 157,
+      "trend": -15,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 90
+    },
+    {
+      "id": "emp-120",
+      "name": "Cyril Voss",
+      "position": "Lead Backend Engineer",
+      "department": "Engineering",
+      "office": "Remote",
+      "points": 155,
+      "trend": 20,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "8764b8",
+      "rank": 91
+    },
+    {
+      "id": "emp-48",
+      "name": "Sage Jansen",
+      "position": "Principal HR Specialist",
+      "department": "People",
+      "office": "Remote",
+      "points": 154,
+      "trend": 34,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 92
+    },
+    {
+      "id": "emp-94",
+      "name": "Joran Nakamura",
+      "position": "Senior Full-stack Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 154,
+      "trend": -16,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 93
+    },
+    {
+      "id": "emp-68",
+      "name": "Sofia Kim",
+      "position": "Lead Project Manager",
+      "department": "Engineering",
+      "office": "Tbilisi",
+      "points": 144,
+      "trend": -16,
+      "badges": [],
+      "avatarColor": "5c2d91",
+      "rank": 94
+    },
+    {
+      "id": "emp-103",
+      "name": "Reza Greer",
+      "position": "Junior Data Analyst",
+      "department": "Finance",
+      "office": "Warsaw",
+      "points": 140,
+      "trend": 34,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 95
+    },
+    {
+      "id": "emp-35",
+      "name": "Cyril Hartley",
+      "position": "Lead Sales Executive",
+      "department": "Sales",
+      "office": "Berlin",
+      "points": 139,
+      "trend": 9,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 96
+    },
+    {
+      "id": "emp-78",
+      "name": "Iris Ueno",
+      "position": "Junior Content Strategist",
+      "department": "Marketing",
+      "office": "Remote",
+      "points": 132,
+      "trend": 31,
+      "badges": [],
+      "avatarColor": "0078d4",
+      "rank": 97
+    },
+    {
+      "id": "emp-104",
+      "name": "Tess Khoury",
+      "position": "Junior Engineering Manager",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 132,
+      "trend": 10,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 98
+    },
+    {
+      "id": "emp-45",
+      "name": "Otto Hartley",
+      "position": "Middle Customer Success Manager",
+      "department": "Sales",
+      "office": "Yerevan",
+      "points": 130,
+      "trend": 16,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "d83b01",
+      "rank": 99
+    },
+    {
+      "id": "emp-40",
+      "name": "Caleb Jansen",
+      "position": "Senior Recruiter",
+      "department": "People",
+      "office": "Remote",
+      "points": 125,
+      "trend": 28,
+      "badges": [],
+      "avatarColor": "5c2d91",
+      "rank": 100
+    },
+    {
+      "id": "emp-106",
+      "name": "Ines Kovac",
+      "position": "Middle Tech Lead",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 103,
+      "trend": -3,
+      "badges": [],
+      "avatarColor": "0078d4",
+      "rank": 101
+    },
+    {
+      "id": "emp-102",
+      "name": "Niko Iyer",
+      "position": "Lead Full-stack Engineer",
+      "department": "Engineering",
+      "office": "Berlin",
+      "points": 102,
+      "trend": -11,
+      "badges": [
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 102
+    },
+    {
+      "id": "emp-4",
+      "name": "Ivy Xu",
+      "position": "Principal UX Designer",
+      "department": "Design",
+      "office": "Yerevan",
+      "points": 97,
+      "trend": 4,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 103
+    },
+    {
+      "id": "emp-30",
+      "name": "Hugo Greer",
+      "position": "Lead Product Manager",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 88,
+      "trend": 17,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 104
+    },
+    {
+      "id": "emp-105",
+      "name": "Rhea Vance",
+      "position": "Lead Mobile Engineer",
+      "department": "Engineering",
+      "office": "Yerevan",
+      "points": 85,
+      "trend": -23,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 105
+    },
+    {
+      "id": "emp-9",
+      "name": "Nora Stone",
+      "position": "Middle Frontend Engineer",
+      "department": "Engineering",
+      "office": "Tbilisi",
+      "points": 81,
+      "trend": -11,
+      "badges": [],
+      "avatarColor": "038387",
+      "rank": 106
+    },
+    {
+      "id": "emp-46",
+      "name": "Sofia Yates",
+      "position": "Junior Frontend Engineer",
+      "department": "Engineering",
+      "office": "Tbilisi",
+      "points": 81,
+      "trend": 27,
+      "badges": [],
+      "avatarColor": "8764b8",
+      "rank": 107
+    },
+    {
+      "id": "emp-91",
+      "name": "Roman Young",
+      "position": "Middle People Partner",
+      "department": "People",
+      "office": "Tbilisi",
+      "points": 81,
+      "trend": 26,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        }
+      ],
+      "avatarColor": "ca5010",
+      "rank": 108
+    },
+    {
+      "id": "emp-29",
+      "name": "Elara Ortiz",
+      "position": "Principal UI Designer",
+      "department": "Design",
+      "office": "Lisbon",
+      "points": 80,
+      "trend": 17,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 109
+    },
+    {
+      "id": "emp-63",
+      "name": "Cleo Nakamura",
+      "position": "Principal Engineering Manager",
+      "department": "Engineering",
+      "office": "Warsaw",
+      "points": 80,
+      "trend": -25,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 110
+    },
+    {
+      "id": "emp-75",
+      "name": "Stella Reyes",
+      "position": "Middle Engineering Manager",
+      "department": "Engineering",
+      "office": "Berlin",
+      "points": 78,
+      "trend": 12,
+      "badges": [
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        },
+        {
+          "id": "quick-learner",
+          "label": "Quick Learner",
+          "color": "#107c10"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 111
+    },
+    {
+      "id": "emp-28",
+      "name": "Bruno Saito",
+      "position": "Middle QA Engineer",
+      "department": "Engineering",
+      "office": "Berlin",
+      "points": 77,
+      "trend": -13,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 112
+    },
+    {
+      "id": "emp-20",
+      "name": "Nora Vega",
+      "position": "Lead UI Designer",
+      "department": "Design",
+      "office": "Lisbon",
+      "points": 72,
+      "trend": -16,
+      "badges": [],
+      "avatarColor": "008272",
+      "rank": 113
+    },
+    {
+      "id": "emp-15",
+      "name": "Ivy Okafor",
+      "position": "Junior Full-stack Engineer",
+      "department": "Engineering",
+      "office": "Berlin",
+      "points": 71,
+      "trend": 10,
+      "badges": [],
+      "avatarColor": "5c2d91",
+      "rank": 114
+    },
+    {
+      "id": "emp-65",
+      "name": "Jasper Wirth",
+      "position": "Middle Content Strategist",
+      "department": "Marketing",
+      "office": "Remote",
+      "points": 71,
+      "trend": 22,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "8764b8",
+      "rank": 115
+    },
+    {
+      "id": "emp-10",
+      "name": "Esme Eklund",
+      "position": "Senior Account Manager",
+      "department": "Sales",
+      "office": "Lisbon",
+      "points": 70,
+      "trend": 24,
+      "badges": [],
+      "avatarColor": "b4009e",
+      "rank": 116
+    },
+    {
+      "id": "emp-54",
+      "name": "Linnea Reyes",
+      "position": "Principal UI Designer",
+      "department": "Design",
+      "office": "Berlin",
+      "points": 69,
+      "trend": 30,
+      "badges": [
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "b4009e",
+      "rank": 117
+    },
+    {
+      "id": "emp-98",
+      "name": "Iris Voss",
+      "position": "Middle Account Manager",
+      "department": "Sales",
+      "office": "Lisbon",
+      "points": 68,
+      "trend": 6,
+      "badges": [
+        {
+          "id": "top-contributor",
+          "label": "Top Contributor",
+          "color": "#d83b01"
+        },
+        {
+          "id": "innovator",
+          "label": "Innovator",
+          "color": "#0078d4"
+        }
+      ],
+      "avatarColor": "038387",
+      "rank": 118
+    },
+    {
+      "id": "emp-76",
+      "name": "Felix Kovac",
+      "position": "Middle Tech Lead",
+      "department": "Engineering",
+      "office": "Tbilisi",
+      "points": 64,
+      "trend": 34,
+      "badges": [
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        },
+        {
+          "id": "streak-master",
+          "label": "Streak Master",
+          "color": "#b4009e"
+        }
+      ],
+      "avatarColor": "0078d4",
+      "rank": 119
+    },
+    {
+      "id": "emp-70",
+      "name": "Elara Rao",
+      "position": "Lead DevOps Engineer",
+      "department": "Engineering",
+      "office": "Lisbon",
+      "points": 57,
+      "trend": 33,
+      "badges": [
+        {
+          "id": "helping-hand",
+          "label": "Helping Hand",
+          "color": "#008272"
+        },
+        {
+          "id": "community-hero",
+          "label": "Community Hero",
+          "color": "#e3008c"
+        }
+      ],
+      "avatarColor": "5c2d91",
+      "rank": 120
+    }
+  ]
+}
