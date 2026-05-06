@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<!--
+  Прагматичный набор правил: без полного Google Style, чтобы не ломать существующий код.
+-->
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+    <property name="severity" value="error"/>
+
+    <module name="FileTabCharacter"/>
+
+    <module name="LineLength">
+        <property name="max" value="160"/>
+        <property name="ignorePattern" value="^ *\* *.*$|^package .+|^import .+"/>
+    </module>
+
+    <module name="TreeWalker">
+        <module name="UnusedImports"/>
+        <module name="RedundantImport"/>
+        <module name="IllegalImport">
+            <property name="illegalPkgs" value="junit.framework, org.apache.commons.lang"/>
+        </module>
+        <module name="NeedBraces"/>
+        <module name="EmptyStatement"/>
+        <module name="SimplifyBooleanReturn"/>
+        <module name="StringLiteralEquality"/>
+        <module name="MissingSwitchDefault"/>
+        <module name="DefaultComesLast"/>
+        <module name="OneStatementPerLine"/>
+        <module name="MultipleVariableDeclarations"/>
+        <module name="ModifierOrder"/>
+        <module name="EmptyBlock">
+            <property name="option" value="text"/>
+        </module>
+    </module>
+</module>

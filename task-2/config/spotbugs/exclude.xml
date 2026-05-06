@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Подавления известных ложных срабатываний (JPA-сущности, DTO, Spring wiring).
+  https://spotbugs.readthedocs.io/en/latest/filter.html
+-->
+<FindBugsFilter>
+    <Match>
+        <Bug pattern="EI_EXPOSE_REP,EI_EXPOSE_REP2"/>
+        <OR>
+            <Class name="~com\.events\.platform\.domain\..*"/>
+            <Class name="~com\.events\.platform\.web\.dto\..*"/>
+        </OR>
+    </Match>
+</FindBugsFilter>

@@ -1,7 +1,6 @@
 package com.events.platform.service;
 
 import com.events.platform.domain.Event;
-import com.events.platform.domain.Host;
 import com.events.platform.domain.MembershipRole;
 import com.events.platform.domain.User;
 import com.events.platform.repo.HostMembershipRepository;

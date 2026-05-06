@@ -8,7 +8,10 @@
 
 ```text
 task-2/
-├── pom.xml                    # Spring Boot 3.2, Java 21, зависимости
+├── pom.xml                    # Spring Boot 3.2, Java 21; verify = Checkstyle + SpotBugs
+├── config/
+│   ├── checkstyle/checkstyle.xml
+│   └── spotbugs/exclude.xml
 ├── docker-compose.yml         # PostgreSQL для локальной разработки
 ├── README.md                  # Запуск и ручные сценарии
 ├── report.md                  # Отчёт по заданию

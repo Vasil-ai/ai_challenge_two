@@ -227,6 +227,15 @@ REST под префиксом `/api`. Аутентификация: сесси�
 
 На каждый **pull request** (и push в `main` / `master`) запускается workflow [`.github/workflows/ci.yml`](.github/workflows/ci.yml): JDK 21, `mvn verify`.
 
+`mvn verify` дополнительно запускает **линт и статический анализ**:
+
+| Инструмент | Конфигурация | Фаза |
+|------------|----------------|------|
+| **Checkstyle** | [`config/checkstyle/checkstyle.xml`](config/checkstyle/checkstyle.xml) | `verify` |
+| **SpotBugs** | [`config/spotbugs/exclude.xml`](config/spotbugs/exclude.xml) (подавления для JPA/DTO) | `verify` |
+
+Локально только проверки без полного цикла: `mvn -q checkstyle:check spotbugs:check`.
+
 ### Где включить обязательную зелёную CI перед merge
 
 Нужны права **Admin** (или «Manage branch protection rules») на репозитории. Название чека в списке обычно **`CI / build`** (`name` workflow = `CI`, `job` = `build`). Чек **появляется в списке только после хотя бы одного успешного запуска** этого workflow на этой ветке (часто достаточно открыть PR или сделать push в `main`).
