@@ -223,6 +223,10 @@ REST под префиксом `/api`. Аутентификация: сесси�
 
 `GET /api/me` и ответы `POST /api/auth/login|register` возвращают пользователя и список **`hostMemberships`**: `{ hostId, role }` с `role` равным `HOST` или `CHECKER` — SPA использует это, чтобы не показывать ссылку Host **Dashboard** пользователю с ролью Checker.
 
+## CI (GitHub Actions)
+
+На каждый **pull request** (и push в `main` / `master`) запускается workflow [`.github/workflows/ci.yml`](.github/workflows/ci.yml): JDK 21, `mvn verify`. В настройках ветки можно включить **Require status checks** и выбрать job **CI / build** после первого успешного прогона.
+
 ## Документация по фичам
 
 См. [docs/SDD.md](docs/SDD.md), [docs/FEATURES.md](docs/FEATURES.md), [docs/SDD-TASKS.md](docs/SDD-TASKS.md), [docs/project-map/PROJECT_MAP.md](docs/project-map/PROJECT_MAP.md) — карта репозитория и слоёв.
