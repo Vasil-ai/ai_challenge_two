@@ -225,4 +225,4 @@ REST под префиксом `/api`. Аутентификация: сесси�
 
 ## Документация по фичам
 
-См. [docs/SDD.md](docs/SDD.md), [docs/FEATURES.md](docs/FEATURES.md), [docs/SDD-TASKS.md](docs/SDD-TASKS.md).
+См. [docs/SDD.md](docs/SDD.md), [docs/FEATURES.md](docs/FEATURES.md), [docs/SDD-TASKS.md](docs/SDD-TASKS.md), [docs/project-map/PROJECT_MAP.md](docs/project-map/PROJECT_MAP.md) — карта репозитория и слоёв.
