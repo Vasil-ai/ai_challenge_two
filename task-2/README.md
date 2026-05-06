@@ -225,7 +225,39 @@ REST под префиксом `/api`. Аутентификация: сесси�
 
 ## CI (GitHub Actions)
 
-На каждый **pull request** (и push в `main` / `master`) запускается workflow [`.github/workflows/ci.yml`](.github/workflows/ci.yml): JDK 21, `mvn verify`. В настройках ветки можно включить **Require status checks** и выбрать job **CI / build** после первого успешного прогона.
+На каждый **pull request** (и push в `main` / `master`) запускается workflow [`.github/workflows/ci.yml`](.github/workflows/ci.yml): JDK 21, `mvn verify`.
+
+### Где включить обязательную зелёную CI перед merge
+
+Нужны права **Admin** (или «Manage branch protection rules») на репозитории. Название чека в списке обычно **`CI / build`** (`name` workflow = `CI`, `job` = `build`). Чек **появляется в списке только после хотя бы одного успешного запуска** этого workflow на этой ветке (часто достаточно открыть PR или сделать push в `main`).
+
+**Вариант A — классические правила ветки**
+
+1. Откройте репозиторий на GitHub → **Settings** (настройки репозитория, не вашего аккаунта).
+2. Слева: **Code and automation** → **Branches**.
+3. Блок **Branch protection rules** → кнопка **Add branch protection rule** (или **Add rule**).
+4. В **Branch name pattern** введите имя ветки, например `main` или `master`.
+5. Включите **Require status checks to pass before merging**.
+6. В области **Status checks that are required** нажмите **Add checks** / поиск — выберите **`CI / build`** (или похожее имя из Actions). Если списка нет — см. раздел «Не вижу чек» ниже.
+7. При необходимости включите **Require a pull request before merging** и сохраните (**Create** / **Save changes**).
+
+**Вариант B — Rulesets (новый интерфейс GitHub)**
+
+1. **Settings** → **Code and automation** → **Rules** → **Rulesets**.
+2. **New ruleset** → **New branch ruleset**, target: нужная ветка (`main` и т.д.).
+3. Включите правило вроде **Require status checks to pass** и добавьте обязательный check **`CI / build`**.
+
+### Не вижу «Add rule» или не вижу чек `CI / build`
+
+| Причина | Что сделать |
+|--------|-------------|
+| Нет прав **Admin** | Владелец репозитория должен выдать роль или настроить правила сам. |
+| Открыт не тот **Settings** | Нужны настройки **репозитория** (вкладка репо → шестерёнка **Settings**), не глобальные настройки профиля. |
+| Workflow ещё ни разу не выполнялся | Сделайте push в `.github/workflows/ci.yml` на `main` или откройте PR в `main` — дождитесь зелёного **Actions**. |
+| Другая дефолтная ветка | Добавьте её в `on.push.branches` в `ci.yml` или переименуйте pattern в правиле под вашу ветку. |
+| Форк / Actions выключены | В форке: **Settings** → **Actions** → **General** — разрешите Actions; для PR из форка чек идёт в базовый репозиторий по политике GitHub. |
+
+Публичная справка GitHub: [About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches), [Rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets).
 
 ## Документация по фичам
 
