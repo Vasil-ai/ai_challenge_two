@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: event-platform
+  web:
+    resources:
+      add-mappings: false
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 12MB
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:events}
+    username: ${DB_USER:events}
+    password: ${DB_PASSWORD:events}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate.jdbc.time_zone: UTC
+  flyway:
+    enabled: true
+
+server:
+  port: ${PORT:8080}
+
+app:
+  base-url: ${APP_BASE_URL:http://localhost:8080}
+  upload-dir: ${APP_UPLOAD_DIR:./data/uploads}
