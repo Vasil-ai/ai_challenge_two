@@ -10,9 +10,10 @@ public interface CheckInRepository extends JpaRepository<CheckIn, Long> {
     boolean existsByTicketAndUndoneAtIsNull(Ticket ticket);
 
     Optional<CheckIn> findTopByEventIdAndSessionIdAndUndoneAtIsNullOrderByCheckedInAtDesc(
-            Long eventId, String sessionId)  ;
+            Long eventId, String sessionId);
 
     long countByEventIdAndUndoneAtIsNull(Long eventId);
 
     Optional<CheckIn> findByTicketIdAndUndoneAtIsNull(Long ticketId);
 }
+//TODO This is for test commit
