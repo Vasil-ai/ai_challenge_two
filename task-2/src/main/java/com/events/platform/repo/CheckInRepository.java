@@ -3,7 +3,6 @@ package com.events.platform.repo;
 import com.events.platform.domain.CheckIn;
 import com.events.platform.domain.Ticket;
 import java.util.Optional;
-import java.util.ArrayList;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CheckInRepository extends JpaRepository<CheckIn, Long> {
@@ -17,4 +16,3 @@ public interface CheckInRepository extends JpaRepository<CheckIn, Long> {
 
     Optional<CheckIn> findByTicketIdAndUndoneAtIsNull(Long ticketId);
 }
-//TODO This is for test commit
