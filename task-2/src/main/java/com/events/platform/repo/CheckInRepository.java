@@ -2,7 +2,7 @@ package com.events.platform.repo;
 
 import com.events.platform.domain.CheckIn;
 import com.events.platform.domain.Ticket;
-import java.util.Optional;
+import java.util.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CheckInRepository extends JpaRepository<CheckIn, Long> {
