@@ -19,6 +19,9 @@ task-2/
 ├── scripts/                   # Windows: JAVA_HOME + Maven (run.ps1, set-java-home-user.ps1)
 ├── samples/
 │   └── rsvps-example.csv      # Пример CSV для импорта/документации
+├── ../.github/workflows/      # GitHub Actions (в корне монорепо)
+│   ├── ci.yml
+│   └── lint.yml
 ├── docs/
 │   ├── SDD.md                 # Проектное ТЗ
 │   ├── FEATURES.md            # Карточки F01–F20
