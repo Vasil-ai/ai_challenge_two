@@ -1,10 +1,17 @@
-# Сборка и тесты на каждый pull request (и push в main/master).
 name: CI
 
 on:
   pull_request:
+    paths:
+      - "task-2/**"
+      - ".github/workflows/ci.yml"
+      - ".github/workflows/lint.yml"
   push:
     branches: [main, master]
+    paths:
+      - "task-2/**"
+      - ".github/workflows/ci.yml"
+      - ".github/workflows/lint.yml"
 
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}
@@ -13,6 +20,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: task-2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,6 +33,7 @@ jobs:
           distribution: temurin
           java-version: "21"
           cache: maven
+          cache-dependency-path: task-2/pom.xml
 
       - name: Maven verify
         run: mvn -B --no-transfer-progress verify

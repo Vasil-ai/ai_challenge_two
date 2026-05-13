@@ -225,7 +225,7 @@ REST под префиксом `/api`. Аутентификация: сесси�
 
 ## CI (GitHub Actions)
 
-На каждый **pull request** (и push в `main` / `master`) запускается workflow [`.github/workflows/ci.yml`](.github/workflows/ci.yml): JDK 21, `mvn verify`.
+На каждый **pull request** (и push в `main` / `master`) запускается workflow [`../.github/workflows/ci.yml`](../.github/workflows/ci.yml): JDK 21, `mvn verify`.
 
 `mvn verify` дополнительно запускает **линт и статический анализ**:
 
@@ -262,7 +262,7 @@ REST под префиксом `/api`. Аутентификация: сесси�
 |--------|-------------|
 | Нет прав **Admin** | Владелец репозитория должен выдать роль или настроить правила сам. |
 | Открыт не тот **Settings** | Нужны настройки **репозитория** (вкладка репо → шестерёнка **Settings**), не глобальные настройки профиля. |
-| Workflow ещё ни разу не выполнялся | Сделайте push в `.github/workflows/ci.yml` на `main` или откройте PR в `main` — дождитесь зелёного **Actions**. |
+| Workflow ещё ни разу не выполнялся | Сделайте push в `../.github/workflows/ci.yml` на `main` или откройте PR в `main` — дождитесь зелёного **Actions**. |
 | Другая дефолтная ветка | Добавьте её в `on.push.branches` в `ci.yml` или переименуйте pattern в правиле под вашу ветку. |
 | Форк / Actions выключены | В форке: **Settings** → **Actions** → **General** — разрешите Actions; для PR из форка чек идёт в базовый репозиторий по политике GitHub. |
 
