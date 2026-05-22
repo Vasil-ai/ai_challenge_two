@@ -1,0 +1,26 @@
+server:
+  port: 0
+
+spring:
+  ai:
+    mcp:
+      server:
+        name: atc-mcp-server-test
+        version: 1.0.0
+        type: SYNC
+
+atc:
+  runways: R1:2500,R2:3500,R3:4000
+  gate-count: 3
+  ground-crew-count: 6
+  separation:
+    takeoff-seconds: 120
+    landing-seconds: 180
+    mixed-seconds: 240
+  gate-turnaround-seconds: 1800
+  dependency-buffer-seconds: 900
+  scheduling-horizon-seconds: 43200
+  operation-duration:
+    arrival-seconds: 600
+    departure-seconds: 480
+  epoch: 2026-01-01T00:00:00Z
